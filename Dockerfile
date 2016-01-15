@@ -1,4 +1,4 @@
-FROM		mysql:5.6
+FROM		mysql:5.7
 MAINTAINER	Alexandre Buisine <alexandrejabuisine@gmail.com>
 LABEL		version="1.0.0"
 
