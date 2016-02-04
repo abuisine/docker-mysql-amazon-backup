@@ -1,4 +1,4 @@
-FROM		mysql:5.6
+FROM		mariadb:10.1
 MAINTAINER	Alexandre Buisine <alexandrejabuisine@gmail.com>
 LABEL		version="1.0.0"
 
