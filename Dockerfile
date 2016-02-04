@@ -23,7 +23,7 @@ if [ -d "/restores/mysql" ]; then\n\
 	echo "Mysql restore process done. Ready for start up."\n\
 	echo\n\
 fi\n\
-' /entrypoint.sh
+' /docker-entrypoint.sh
 
 VOLUME /backups
 VOLUME /restores
